@@ -781,7 +781,7 @@ table {
 .caption {
   position: absolute;
   bottom: 0;
-  background-color: rgba(0, 205, 205, 0.9);
+  background-color: rgba(56, 142, 142, 0.9);
   padding: 1em;
   margin-bottom: 0.5em;
 }
