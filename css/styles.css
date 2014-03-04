@@ -768,5 +768,42 @@ table {
   width: 100%;
   overflow: hidden;
   background-color: #666;
-  height: 200px;
+  max-height: 600px;
+  position: relative;
+}
+
+/* line 13, ../sass/_slideshow.scss */
+.image img {
+  width: 100%;
+}
+
+/* line 17, ../sass/_slideshow.scss */
+.caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 205, 205, 0.9);
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* line 25, ../sass/_slideshow.scss */
+.caption__title {
+  color: white;
+  margin-bottom: 0em;
+}
+
+/* line 30, ../sass/_slideshow.scss */
+.caption__text {
+  color: white;
+  margin-bottom: 0em;
+}
+
+/* line 35, ../sass/_slideshow.scss */
+.left {
+  float: left;
+}
+
+/* line 39, ../sass/_slideshow.scss */
+.right {
+  float: right;
 }

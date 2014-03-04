@@ -12,7 +12,7 @@
 <body>
 
   <div class="slide">
-    <figure class="image-container">
+    <figure>
       <span class="image" data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
         <span data-src="imgs/test-low-res.jpg"></span>
         <span data-src="imgs/test.png" data-media="(min-width: 800px)"></span>
@@ -24,11 +24,24 @@
         </noscript>
       </span>
     </figure>
-    <div class="caption">
-      <h1>Our Pictures</h1>
-      <p>This is our image. Isn't it cool?</p>
+    <div class="container">
+      <div class="l-1up">
+        <div class="caption">
+          <h1 class="caption__title">Our Pictures</h1>
+          <p class="caption__text">This is our image. Isn't it cool?</p>
+        </div>
+      </div>
     </div>
   </div>
+
+    <div class="container">
+      <div class="l-1up">
+        <nav class="slide-navigation">
+          <a class="left" href="#">Previous</a>
+          <a class="right" href="#">Next</a>
+        </nav>
+      </div>
+    </div>
 
 </body>
 </html>

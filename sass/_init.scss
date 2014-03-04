@@ -66,7 +66,7 @@ $h1-font-size: $lg-heading;
 $h2-font-size: $md-heading;
 $h3-font-size: $sm-heading;
 $h4-font-size: $text;
-$h5-font-size: $label; 
+$h5-font-size: $label;
 $h6-font-size: $label;
 
 // The following font family declarations are based on the Microsoft core web
@@ -105,6 +105,7 @@ $off-white: #ededed;
 $white: #ffffff;
 $white-60: rgba($white, .60);
 $white-30: rgba($white, .30);
+$teal: #00CDCD;
 
 // Breakpoint Variables
 $bp1: 600px;
@@ -112,7 +113,7 @@ $bp2: 900px;
 $bp3: 1100px;
 
 // Vertical spacing unit
-$slug: rhythm(8); 
+$slug: rhythm(8);
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: rhythm(1);
