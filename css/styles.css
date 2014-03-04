@@ -726,12 +726,12 @@ table {
 /*
  * Containers for grid items and flow items.
  */
-/* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+/* line 46, ../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
 .container:before, .container:after {
   content: "";
   display: table;
 }
-/* line 50, ../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+/* line 50, ../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
 .container:after {
   clear: both;
 }
@@ -763,3 +763,10 @@ table {
 }
 
 /* Component (SMACSS module) rules */
+/* line 1, ../sass/_slideshow.scss */
+.slide {
+  width: 100%;
+  overflow: hidden;
+  background-color: #666;
+  height: 200px;
+}
