@@ -1,13 +1,9 @@
-.slide {
+.slides-container {
   width: 100%;
   overflow: hidden;
   background-color: #666;
   max-height: 600px;
   position: relative;
-}
-
-.image-container {
-
 }
 
 .image img {
@@ -50,4 +46,12 @@
     color:$white;
     background-color:rgba($gray-medium, 0.9);
   }
+}
+
+.slide-in {
+  @include animation(enter 2s);
+}
+
+.slide-out {
+  @include animation(exit 2s);
 }

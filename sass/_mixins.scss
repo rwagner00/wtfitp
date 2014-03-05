@@ -91,3 +91,30 @@
   transition: all $timing $easing;
 }
 
+/* ==============================================================
+   Animation Mixins
+   ============================================================== */
+
+  @include keyframes(enter) {
+    0% {
+      margin-left: 100%;
+      @include opacity(0);
+    }
+    100% {
+      margin-left: 0;
+      @include opacity(1);
+
+    }
+  }
+
+  @include keyframes(exit) {
+    0% {
+      margin-right: 0;
+      @include opacity(1);
+    }
+    100% {
+      margin-right: 100%;
+      @include opacity(0);
+    }
+  }
+

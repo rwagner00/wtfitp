@@ -4,6 +4,8 @@
  * Styles are organized using the SMACSS technique.
  * @see http://smacss.com/book/
  */
+/* CSS3 animations for Compass */
+@import "animation";
 
 /* Import Sass mixins, variables, Compass modules, etc. */
 @import "init";
@@ -11,8 +13,6 @@
 /* HTML element (SMACSS base) rules */
 @import "normalize";
 
-/* CSS3 animations for Compass */
-@import "animation";
 
 /* Layout rules */
 @import "layouts/l-zen-grids-base";
