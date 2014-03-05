@@ -39,3 +39,15 @@
 .right {
   float: right;
 }
+
+.slide-navigation {
+  background-color: rgba($teal, 0.9);
+  padding: 0.25em 1em;
+  margin-bottom: 0.5em;
+    &:hover,
+    &:focus,
+    &:active {
+    color:$white;
+    background-color:rgba($gray-medium, 0.9);
+  }
+}

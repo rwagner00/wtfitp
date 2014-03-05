@@ -100,7 +100,7 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -webkit-font-smoothing: antialiased; /* 4 */
-  text-rendering: optimizeLegibility; /* 4 */  
+  text-rendering: optimizeLegibility; /* 4 */
 
   // Establish a vertical rhythm unit using $base-line-height.
   @include adjust-leading-to(2);
@@ -108,7 +108,7 @@ html {
   // Adjust font-size globally per breakpoint.
   @include breakpoint($bp1){ font-size: ($base-font-size / 16px) * 112%; }
   @include breakpoint($bp2){ font-size: ($base-font-size / 16px) * 124%; }
-  @include breakpoint($bp3){ font-size: ($base-font-size / 16px) * 136%; }  
+  @include breakpoint($bp3){ font-size: ($base-font-size / 16px) * 136%; }
 }
 
 @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
@@ -134,16 +134,16 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link,
-a:visited { 
-  color: $gray-medium;
-  text-decoration: none;  
+a:visited {
+  color: $white;
+  text-decoration: none;
 }
 a:hover,
 a:focus,
 a:active {
   @include trans($timing, $easing);
-  color: $black;
-  text-decoration: underline;  
+  color: $teal;
+  text-decoration: underline;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
@@ -191,13 +191,13 @@ h1 {
   @include trailer(1, $h1-font-size);
 }
 h2 {
-  @extend %display-type;  
+  @extend %display-type;
   @include adjust-font-size-to( $h2-font-size, 2.5 );
   @include leader(2, $h2-font-size);
   @include trailer(1, $h2-font-size);
 }
 h3 {
-  @extend %display-type;  
+  @extend %display-type;
   @include adjust-font-size-to( $h3-font-size );
   @include leader(2, $h3-font-size);
   @include trailer(1, $h3-font-size);

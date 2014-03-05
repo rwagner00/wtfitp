@@ -11,9 +11,14 @@
 /* HTML element (SMACSS base) rules */
 @import "normalize";
 
+/* CSS3 animations for Compass */
+@import "animation";
+
 /* Layout rules */
 @import "layouts/l-zen-grids-base";
 @import "layouts/l-1up";
 
 /* Component (SMACSS module) rules */
 @import "slideshow";
+
+
