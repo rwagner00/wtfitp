@@ -2,9 +2,40 @@
   width: 100%;
   overflow: hidden;
   background-color: #666;
-  height: 200px;
+  max-height: 600px;
+  position: relative;
 }
 
-.image {
+.image-container {
 
+}
+
+.image img {
+  width: 100%;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba($teal, 0.9);
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.caption__title {
+  color: $white;
+  @include trailer(0);
+}
+
+.caption__text {
+  color: $white;
+  @include trailer(0);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
